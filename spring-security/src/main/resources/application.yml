@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: spring-security
+  datasource:
+    url: jdbc:oracle:thin:@localhost:1521:XE
+    username: admin
+    password: 1234
+#logging:
+#  level:
+#    root: INFO        # Sets the default logging level
+#    org.springframework.web: DEBUG  # Logs Spring Web requests
+#    org.hibernate: DEBUG  # Logs Hibernate SQL statements
+#    com.yourpackage: DEBUG  # Replace with your package name to log your app's debug info
