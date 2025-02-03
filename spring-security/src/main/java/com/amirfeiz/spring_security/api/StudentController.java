@@ -15,15 +15,15 @@ public class StudentController {
     @GetMapping("/list/students")
     public List<Student> getStudents() {
         List<Student> students = new ArrayList<>();
-        students.add(new Student(1, "Amir Feiz", 33));
-        students.add(new Student(2, "Masoud Najafi", 30));
-        students.add(new Student(3, "Bahram Farmani", 24));
+//        students.add(new Student(1, "Amir Feiz", 33));
+//        students.add(new Student(2, "Masoud Najafi", 30));
+//        students.add(new Student(3, "Bahram Farmani", 24));
         return students;
     }
 
     @PostMapping("/create/student")
     public Student createStudent(@RequestBody Student student) {
-        Student newStudent = new Student(student.getId(), student.getName(), student.getAge());
-        return newStudent;
+//        Student newStudent = new Student(student.getId(), student.getName(), student.getAge());
+        return null;
     }
 }
